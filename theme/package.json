@@ -1,0 +1,12 @@
+{
+  "name": "marriage-html-theme-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./assets/tailwind/style.css -o ./assets/css/style.css",
+    "watch": "npx tailwindcss -i ./assets/tailwind/style.css -o ./assets/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
