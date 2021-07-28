@@ -11,11 +11,16 @@
 
    filterMenu.addEventListener("click", function (e) {
      e.preventDefault();
+     const activeFilterMenuLink = document.querySelector(".gallery-filter-menu a.active-filter");
+
      if ( !matchesSelector(e.target, 'a') ) {
        return;
      }
-     console.log('iso', iso);
-     console.log('this', e.target.getAttribute('data-filter'));
+     if(activeFilterMenuLink !== null) {
+       activeFilterMenuLink.classList.remove('active-filter');
+     }
+
+     e.target.classList.add('active-filter');
      const filterValue = e.target.getAttribute('data-filter');
      iso.arrange({ filter: filterValue });
    });

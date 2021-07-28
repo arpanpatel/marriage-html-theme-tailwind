@@ -8,10 +8,18 @@ body {
 
 @layer components {
     .btn {
-        @apply px-4 py-2 bg-blue-600 text-white rounded;
+        @apply px-4 py-3 bg-primary text-white rounded-sm;
+    }
+
+    .active-filter {
+        @apply bg-pink-600 text-white shadow;
     }
 }
 
 .bg-about {
     background-image: url("../images/about-bg.png");
+}
+
+.bg-attending {
+    background-image: url("../images/attending-bg.jpg");
 }
