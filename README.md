@@ -1,9 +1,12 @@
 # marriage-html-theme-tailwind
 
-##Todo
-1. Add image slider
-2. Lightbox integration in gallery
-3. Active class for gallery filter
-4. RSVP form design
-5. Responsive design
-6. Footer menu design changes
+## Todo
+- [ ] Add image slider
+- [x] Lightbox integration in gallery 
+- [x] Active class for gallery filter 
+- [x] RSVP form design 
+- [ ] Responsive design 
+- [x] Footer menu design changes
+- [ ] Improve our love section
+- [ ] Add social icon in couple
+- [ ] Add social icon at footer
