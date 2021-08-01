@@ -7,6 +7,6 @@
 - [x] RSVP form design 
 - [ ] Responsive design 
 - [x] Footer menu design changes
-- [ ] Improve our love section
 - [ ] Add social icon in couple
 - [ ] Add social icon at footer
+- [x] Add parallax effect in home page section

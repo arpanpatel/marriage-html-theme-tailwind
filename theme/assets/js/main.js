@@ -30,3 +30,5 @@ lightGallery(document.getElementById('js-photo-grid'), {
     controls: true
 });
 
+// for parralax
+const rellax = new Rellax('.rellax');
