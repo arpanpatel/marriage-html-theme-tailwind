@@ -10,3 +10,6 @@
 - [ ] Add social icon in couple
 - [ ] Add social icon at footer
 - [x] Add parallax effect in home page section
+
+## Preview
+![Alt text](preview.jpg)
