@@ -12,4 +12,4 @@
 - [x] Add parallax effect in home page section
 
 ## Preview
-![Alt text](preview.jpg)
+![Theme Preview Image](preview.jpg)
