@@ -39,16 +39,19 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">The Wedding</a>
+                        <a class="nav-link" href="#">Couple</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Wedding Planner</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pages</a>
+                        <a class="nav-link" href="#">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="border border-primary nav-link px-10 py-2.5 text-primary" href="#">RSVP</a>
                     </li>
                 </ul>
             </nav>
@@ -58,8 +61,22 @@
 <!-- Header End Here -->
 
 <!-- Hero Slider Start Here -->
-<div>
+<div class="relative">
     <img src="assets/images/slider_1.jpg" alt="">
+    <div class="absolute -mt-4 flex flex-col  inset-0 items-center justify-center m-auto text-white z-10">
+        <div class="py-10 font-bold font-heading text-7xl tracking-widest text-shadow" style="
+    border-top: 1px solid #ffffffed;
+    border-bottom: 1px solid #ffffffed;
+"> Sophia & Benjamin</div>
+        <span class="font-bold mt-6 text-shadow text-xl tracking-widest uppercase">We are getting married</span>
+    </div>
+    <div class="slider-shape">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
 </div>
 <!-- Hero Slider End Here -->
 
@@ -239,7 +256,8 @@
 <!-- Our Love End -->
 
 <!-- Our Gallery Section Start Here -->
-<div class="pt-20 relative">
+<div class="py-20 relative bg-gallery bg-no-repeat bg-cover bg-fixed">
+    <div class="container mx-auto">
     <h2 class="font-bold font-heading mb-12 text-5xl text-center">Our Gallery</h2>
     <div class="heading-separator mb-40px"></div>
     <div class="flex justify-center mb-10">
@@ -262,31 +280,26 @@
 
     <div class="gallery-container">
         <div class="gallery-gird" id="js-photo-grid">
-            <div data-src="assets/images/gallery-1.png" class="gallery-grid__item float-left w-3/12 wedding">
+            <div data-src="assets/images/gallery-1.png" class="gallery-grid__item float-left w-4/12 wedding">
                 <img class="w-full" src="assets/images/gallery-1.png" alt="">
             </div>
-            <div data-src="assets/images/gallery-2.png" class="gallery-grid__item  float-left w-3/12 party">
+            <div data-src="assets/images/gallery-2.png" class="gallery-grid__item  float-left w-4/12 party">
                 <img class="w-full" src="assets/images/gallery-2.png" alt="">
             </div>
-            <div data-src="assets/images/gallery-3.png" class="gallery-grid__item float-left w-3/12 party">
+            <div data-src="assets/images/gallery-3.png" class="gallery-grid__item float-left w-4/12 party">
                 <img class="w-full" src="assets/images/gallery-3.png" alt="">
             </div>
-            <div data-src="assets/images/gallery-4.png" class="gallery-grid__item float-left w-3/12 party">
+            <div data-src="assets/images/gallery-4.png" class="gallery-grid__item float-left w-4/12 party">
                 <img class="w-full" src="assets/images/gallery-4.png" alt="">
             </div>
-            <div data-src="assets/images/gallery-5.png" class="gallery-grid__item float-left w-3/12 party">
-                <img class="w-full" src="assets/images/gallery-5.png" alt="">
-            </div>
-            <div data-src="assets/images/gallery-6.png" class="gallery-grid__item float-left w-3/12 party">
-                <img class="w-full" src="assets/images/gallery-6.png" alt="">
-            </div>
-            <div data-src="assets/images/gallery-7.png" class="gallery-grid__item float-left w-3/12 wedding">
-                <img class="w-full" src="assets/images/gallery-7.png" alt="">
-            </div>
-            <div data-src="assets/images/gallery-8.png" class="gallery-grid__item float-left w-3/12 wedding">
+            <div data-src="assets/images/gallery-8.png" class="gallery-grid__item float-left w-4/12 wedding">
                 <img class="w-full" src="assets/images/gallery-8.png" alt="">
             </div>
+            <div data-src="assets/images/gallery-6.png" class="gallery-grid__item float-left w-4/12 party">
+                <img class="w-full" src="assets/images/gallery-6.png" alt="">
+            </div>
         </div>
+    </div>
     </div>
 </div>
 <!-- Our Gallery Section End Here -->
@@ -298,8 +311,8 @@
         <div class="heading-separator mb-40px"></div>
         <div class="grid grid-cols-3 gap-8">
             <div>
-                <img src="assets/images/wedding-event-2.png" class="w-full" alt="">
-                <h6 class="font-bold mt-5 mb-1 text-lg">Wedding Reception</h6>
+                <img src="assets/images/wedding-events/bridal-shower.jpg" lazy class="w-full" alt="">
+                <h6 class="font-bold mt-4 mb-1 text-lg">Bridal Shower</h6>
                 <p class="mb-3.5">Lorem Ipsum is simply dummy text of the
                     printing and typesetting industry. Lorem
                     Ipsum has been</p>
@@ -312,8 +325,8 @@
                 </a>
             </div>
             <div>
-                <img src="assets/images/wedding-event-3.png" class="w-full" alt="">
-                <h6 class="font-bold mt-5 mb-1 text-lg">Wedding Reception</h6>
+                <img src="assets/images/wedding-events/bouquet-toss.jpg" class="w-full" alt="">
+                <h6 class="font-bold mt-4 mb-1 text-lg">Bouquet Toss</h6>
                 <p class="mb-3.5">Lorem Ipsum is simply dummy text of the
                     printing and typesetting industry. Lorem
                     Ipsum has been</p>
@@ -326,8 +339,8 @@
                 </a>
             </div>
             <div>
-                <img src="assets/images/wedding-event-3.png" class="w-full" alt="">
-                <h6 class="font-bold mt-5 mb-1 text-lg">Wedding Reception</h6>
+                <img src="assets/images/wedding-events/wedding-reception.jpg" class="w-full" alt="">
+                <h6 class="font-bold mt-4 mb-1 text-lg">Wedding Reception</h6>
                 <p class="mb-3.5">Lorem Ipsum is simply dummy text of the
                     printing and typesetting industry. Lorem
                     Ipsum has been</p>
